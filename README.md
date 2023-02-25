@@ -74,3 +74,9 @@ target = "thumbv7em-none-eabi"       # Cortex-M4 and Cortex-M7 (no FPU)
 ```
 rustup default esp
 ```
+
+Para programar instalar  OpenOCD
+
+```
+brew install open-ocd
+```
