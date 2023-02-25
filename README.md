@@ -40,3 +40,9 @@ https://kerkour.com/rust-on-esp32
 ```
 cargo install -f ldproxy espflash espmonitor
 ```
+
+Y luego ejecutar
+
+```
+rustup default esp
+```
