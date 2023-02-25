@@ -37,6 +37,8 @@ cargo generate --git https://github.com/rust-embedded/cortex-m-quickstart --name
 
 https://kerkour.com/rust-on-esp32
 
+Instalar herramientas para ESP32
+
 ```
 cargo install -f ldproxy espflash espmonitor
 ```
