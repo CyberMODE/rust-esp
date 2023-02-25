@@ -47,5 +47,30 @@ Y luego ejecutar
 
 ```
 cargo install espup
+```
+
+Instalar el toolchain para Apple Silicon
+
+https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
+
+```
+export PATH="/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin:$PATH
+```
+
+Editar el build 
+
+```
+[build]
+# Pick ONE of these default compilation targets
+# target = "thumbv6m-none-eabi"        # Cortex-M0 and Cortex-M0+
+# target = "thumbv7m-none-eabi"        # Cortex-M3
+target = "thumbv7em-none-eabi"       # Cortex-M4 and Cortex-M7 (no FPU)
+# target = "thumbv7em-none-eabihf"     # Cortex-M4F and Cortex-M7F (with FPU)
+# target = "thumbv8m.base-none-eabi"   # Cortex-M23
+# target = "thumbv8m.main-none-eabi"   # Cortex-M33 (no FPU)
+# target = "thumbv8m.main-none-eabihf" # Cortex-M33 (with FPU)
+```
+
+```
 rustup default esp
 ```
