@@ -20,3 +20,7 @@ cargo install cargo-generate
 * Instalar Rust ESP 32
 
 https://kerkour.com/rust-on-esp32
+
+```
+cargo install -f ldproxy espflash espmonitor
+```
