@@ -46,5 +46,6 @@ cargo install -f ldproxy espflash espmonitor
 Y luego ejecutar
 
 ```
+cargo install espup
 rustup default esp
 ```
