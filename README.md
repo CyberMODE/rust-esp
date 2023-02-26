@@ -54,8 +54,23 @@ Instalar el toolchain para Apple Silicon
 https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
 
 ```
-export PATH="/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin:$PATH
+export PATH="/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin:$PATH"
 ```
+
+Crear directorio de trabajo
+```
+ls
+cd Documents
+mkdir rust-workshop
+cd rust-workshop
+ls
+cargo generate --git https://github.com/rust-embedded/cortex-m-quickstart --name esp32  
+ls
+cd esp32
+ls
+ls src/
+vim .cargo/config.toml 
+
 
 Editar el build 
 
