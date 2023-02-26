@@ -58,6 +58,7 @@ export PATH="/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin:$PATH"
 ```
 
 Crear directorio de trabajo
+
 ```
 ls
 cd Documents
@@ -70,7 +71,7 @@ cd esp32
 ls
 ls src/
 vim .cargo/config.toml 
-
+```
 
 Editar el build 
 
