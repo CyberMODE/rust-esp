@@ -19,6 +19,8 @@ cargo install cargo-generate
 
 **Instalar para STM**
 
+Info de Eloy: https://gist.github.com/eloycoto/5a3d062a00c7b696e8b088f183d0a399
+
 
 arm-toolchain
 ```
@@ -32,11 +34,6 @@ https://docs.rust-embedded.org/book/start/qemu.html
 cargo generate --git https://github.com/rust-embedded/cortex-m-quickstart --name stm
 ```
 
-**Instalar Rust STM**
-
-```
-https://gist.github.com/eloycoto/5a3d062a00c7b696e8b088f183d0a399
-```
 
 **Instalar Rust ESP 32**
 
