@@ -102,3 +102,14 @@ Si no se tiene homebrew:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
+
+**Otros**
+
+Instalar tree
+
+```
+brew install tree
+```
+
+
